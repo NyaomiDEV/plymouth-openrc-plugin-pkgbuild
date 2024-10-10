@@ -1,0 +1,18 @@
+pkgbase = plymouth-openrc-plugin
+	pkgdesc = Plymouth plugin for OpenRC
+	pkgver = 0.3.0
+	pkgrel = 1
+	url = https://github.com/Kangie/plymouth-openrc-plugin
+	arch = x86_64
+	arch = i686
+	arch = armv7h
+	arch = aarch64
+	license = GPL2
+	makedepends = meson
+	makedepends = ninja
+	depends = plymouth
+	depends = openrc
+	source = https://github.com/Kangie/plymouth-openrc-plugin/archive/refs/tags/v0.3.0.tar.gz
+	sha256sums = a63ed703eab8be816a754c2965324619ddcb21cce6bd13405e459ec663e22e5c
+
+pkgname = plymouth-openrc-plugin
